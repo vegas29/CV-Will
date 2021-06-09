@@ -1,0 +1,19 @@
+{
+  "name": "cv-will",
+  "version": "1.0.0",
+  "description": "CV William Royero",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "SASS",
+    "CSS",
+    "HTML",
+    "JS",
+    "NODE",
+    "GULP"
+  ],
+  "author": "Alejandro Perdomo",
+  "license": "ISC"
+}
