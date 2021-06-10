@@ -10,13 +10,24 @@
     <link rel="stylesheet" href="build/css/imagehover.css">
 
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <!--Favicon-->
+
+    <link rel="apple-touch-icon" sizes="180x180" href="build/img/favicon/apple-touch-icon.webp">
+    <link rel="icon" type="image/png" sizes="32x32" href="build/img/favicon-32x32.webp">
+    <link rel="icon" type="image/png" sizes="16x16" href="build/img/favicon/favicon-16x16.webp">
+    <link rel="manifest" href="build/img/site.webmanifest">
+    <link rel="mask-icon" href="build/img//safari-pinned-tab.svg" color="#000000">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="theme-color" content="#ffffff">
+
 </head>
 <body>
 
     <header class="header">
         <svg><rect></rect></svg>
         <div class="contenedor contenido-header">
-            <a  href="index.html"><img class="imagen__logo" src="src/img/logo.png" alt="Logo W"></a>
+            <a  href="index.html"><img class="imagen__logo" src="build/img/logo.webp" alt="Logo W"></a>
 
             <nav class="navegacion-principal">
                 <a href="#aboutme">About Me</a>
@@ -46,7 +57,7 @@
                 watch movies, videos, and TV series in English to practice it. Always looking for
                 something new to learn!</p>
             
-            <img class="image-card" src="./src/img/perfil.jpg" alt="Foto perfil">    
+            <img class="image-card" src="./build/img/perfil.webp" alt="Foto perfil">    
         </div>
     </section>
 
@@ -57,7 +68,7 @@
         <div class="cards">
             <div class="single-card">
                 <figure class="imghvr-flip-vert">
-                    <img class="ih-fade" src="./src/img/ts.png" alt="Icono TensorFlow">
+                    <img class="ih-fade" src="./build/img/ts.webp" alt="Icono TensorFlow">
                     <figcaption>
                         TensorFlow
                     </figcaption>
@@ -67,7 +78,7 @@
 
             <div class="single-card">
                 <figure class="imghvr-flip-vert">
-                    <img class="ih-fade" src="./src/img/fastapi.png" alt="Icono FastApi">
+                    <img class="ih-fade" src="./build/img/fastapi.webp" alt="Icono FastApi">
                     <figcaption>
                         FastAPI
                     </figcaption>
@@ -76,7 +87,7 @@
 
             <div class="single-card">
                 <figure class="imghvr-flip-vert">
-                    <img class="ih-fade" src="./src/img/flask.png" alt="Icono Flask">
+                    <img class="ih-fade" src="./build/img/flask.webp" alt="Icono Flask">
                     <figcaption>
                         Flask
                     </figcaption>
@@ -85,7 +96,7 @@
 
             <div class="single-card">
                 <figure class="imghvr-flip-vert">
-                    <img class="ih-fade" src="./src/img/keras.png" alt="Icono Keras">
+                    <img class="ih-fade" src="./build/img/keras.webp" alt="Icono Keras">
                     <figcaption>
                         Keras
                     </figcaption>
@@ -94,7 +105,7 @@
 
             <div class="single-card">
                 <figure class="imghvr-flip-vert">
-                    <img class="ih-fade" src="./src/img/opencv.png" alt="Icono OpenCV">
+                    <img class="ih-fade" src="./build/img/opencv.webp" alt="Icono OpenCV">
                     <figcaption>
                         OpenCV
                     </figcaption>
@@ -103,7 +114,7 @@
 
             <div class="single-card">
                 <figure class="imghvr-flip-vert">
-                    <img class="ih-fade" src="./src/img/pytorch.png" alt="Icono pytorch">
+                    <img class="ih-fade" src="./build/img/pytorch.webp" alt="Icono pytorch">
                     <figcaption>
                         PyTorch
                     </figcaption>
@@ -112,34 +123,47 @@
         </div>
     </section>
 
-    <section class="contenedor contenido-xp" id="xp">
+    <section class="contenido-xp" id="xp">
         <h2>Experience</h2>
+
+        <div class="contenedor">
+            <div class="card-exp">
+            
+                <div>
+                    <img src="./build/img/interedes.webp" alt="Interedes">
+                </div>
+    
+                <div>
+                    <h3>Interedes Neiva</h3>
+                    <p class="profession">Profession: <span>Datascientist</span></p>
+                    <p>Period: 2021 - Currently</p>
+                    <p>Tools: Keras, Open CV, TensorFlow</p>
+                </div>
+            </div>
+        </div>
+
+        
     </section>
 
+
     <footer>
-        <div class="contenedor contenido-header">
-            <a  href="index.html"><img class="imagen__logo" src="src/img/logo.png" alt="Logo W"></a>
 
-            <nav class="navegacion-principal">
-                <a href="#aboutme">About Me</a>
-                <a href="#skills">Skills</a>
-                <a href="#xp">XP</a>
-            </nav>
+        <div class="contenedor">
+            <div class="redes">
+                <a target="_blank" href="https://www.facebook.com/Will.Royero"><img class="icono" src="./build/img/facebook.webp" alt="Facebook Icono"></a>
+                <a target="_blank" href="https://www.linkedin.com/in/william-alberto-royero-bele%C3%B1o-730a62173/"><img class="icono" src="./build/img/linkedin.webp" alt="Linkedin Icono"></a>
+               <a href="#"><img class="icono" src="./build/img/twitter.webp" alt="Twitter Icono"></a>
+                <a href="#"><img class="icono" src="./build/img/github.webp" alt="GitHub Icono"></a>
+            </div>
+    
+            <div class="creditos">
+                <p>Development by Alejandro Perdomo &copy;</p>
+            </div>
         </div>
-
-        <div class="redes">
-            <img src="./src/img/facebook.png" alt="Facebook Icono">
-            <img src="./src/img/linkedin.png" alt="Linkedin Icono">
-            <img src="./src/img/twitter.png" alt="Twitter Icono">
-            <img src="./src/img/github.png" alt="GitHub Icono">
-        </div>
-
-        <div class="creditos">
-            <p>Development by Alejandro Perdomo &copy;</p>
-        </div>
+        
     </footer>
 
-    <script src="./src/js/app.js"></script>
+    <script src="./build/js/bundle.min.js"></script>
     
 </body>
 </html>

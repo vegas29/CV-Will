@@ -1,0 +1,32 @@
+.contenido-xp{
+    padding: $separacion5 0;
+    background: rgb(146,2,190);
+    background: -moz-linear-gradient(90deg, rgba(146,2,190,1) 0%, rgba(9,9,121,1) 43%, rgba(59,5,116,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(146,2,190,1) 0%, rgba(9,9,121,1) 43%, rgba(59,5,116,1) 100%);
+    background: linear-gradient(90deg, rgba(146,2,190,1) 0%, rgba(9,9,121,1) 43%, rgba(59,5,116,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#9202be",endColorstr="#3b0574",GradientType=1);
+    
+    h2{
+        margin-top: $separacion5;
+        text-align: center;
+        color: $blanco;
+    }
+
+    img{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .card-exp{
+        padding: $separacion5 0;
+        max-width: 120rem;
+        margin: $separacion5 0;
+        background-color: $blanco;
+        border-radius: 3rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+}
