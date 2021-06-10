@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>William Royero - CV</title>
+    
     <link rel="stylesheet" href="build/css/app.css">
+    <link rel="stylesheet" href="build/css/imagehover.css">
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
 </head>
 <body>
 
@@ -22,18 +26,120 @@
         </div>
 
         <div class="contenedor contenido-title">
+            <div id="app" class="app"></div>
             <div class="title">
-                <h2>William Royero
-                    <span>Datascientist</span>
-                </h2>
-
+                
+                    <h2><span>Datascientist</span></h2>
+                
             </div>
         </div>
     </header>
 
-    <section class="hero">
+    <section class="contenedor contenido-aboutme" id="aboutme">
+        <h2>About Me</h2>
 
+        <div class="card">
+            <p class="text-card">I am a software engineering student, finishing my degree, studying at the Universidad
+                Surcolombiana. Certified at B2 level in English, with knowledge in web application
+                development with implementation of Artificial Intelligence models. I use my free time to
+                do some exercise, deepen my AI development with online courses, play video games,
+                watch movies, videos, and TV series in English to practice it. Always looking for
+                something new to learn!</p>
+            
+            <img class="image-card" src="./src/img/perfil.jpg" alt="Foto perfil">    
+        </div>
     </section>
+
+    <section class="contenedor contenido-techno" id="skills">
+        <h2>Technologies</h2>
+        
+
+        <div class="cards">
+            <div class="single-card">
+                <figure class="imghvr-flip-vert">
+                    <img class="ih-fade" src="./src/img/ts.png" alt="Icono TensorFlow">
+                    <figcaption>
+                        TensorFlow
+                    </figcaption>
+                </figure>
+                
+            </div>
+
+            <div class="single-card">
+                <figure class="imghvr-flip-vert">
+                    <img class="ih-fade" src="./src/img/fastapi.png" alt="Icono FastApi">
+                    <figcaption>
+                        FastAPI
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="single-card">
+                <figure class="imghvr-flip-vert">
+                    <img class="ih-fade" src="./src/img/flask.png" alt="Icono Flask">
+                    <figcaption>
+                        Flask
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="single-card">
+                <figure class="imghvr-flip-vert">
+                    <img class="ih-fade" src="./src/img/keras.png" alt="Icono Keras">
+                    <figcaption>
+                        Keras
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="single-card">
+                <figure class="imghvr-flip-vert">
+                    <img class="ih-fade" src="./src/img/opencv.png" alt="Icono OpenCV">
+                    <figcaption>
+                        OpenCV
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="single-card">
+                <figure class="imghvr-flip-vert">
+                    <img class="ih-fade" src="./src/img/pytorch.png" alt="Icono pytorch">
+                    <figcaption>
+                        PyTorch
+                    </figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <section class="contenedor contenido-xp" id="xp">
+        <h2>Experience</h2>
+    </section>
+
+    <footer>
+        <div class="contenedor contenido-header">
+            <a  href="index.html"><img class="imagen__logo" src="src/img/logo.png" alt="Logo W"></a>
+
+            <nav class="navegacion-principal">
+                <a href="#aboutme">About Me</a>
+                <a href="#skills">Skills</a>
+                <a href="#xp">XP</a>
+            </nav>
+        </div>
+
+        <div class="redes">
+            <img src="./src/img/facebook.png" alt="Facebook Icono">
+            <img src="./src/img/linkedin.png" alt="Linkedin Icono">
+            <img src="./src/img/twitter.png" alt="Twitter Icono">
+            <img src="./src/img/github.png" alt="GitHub Icono">
+        </div>
+
+        <div class="creditos">
+            <p>Development by Alejandro Perdomo &copy;</p>
+        </div>
+    </footer>
+
+    <script src="./src/js/app.js"></script>
     
 </body>
 </html>

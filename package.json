@@ -19,5 +19,8 @@
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-sass": "^4.1.0"
+  },
+  "dependencies": {
+    "typewriter-effect": "^2.17.0"
   }
 }

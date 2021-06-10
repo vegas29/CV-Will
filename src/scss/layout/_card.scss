@@ -1,0 +1,39 @@
+.contenido-aboutme{
+    
+    h2{
+        margin-top: $separacion5;
+        text-align: center;
+    }
+
+    .card{
+        width: 95%;
+        display: block;
+        margin: 0 auto;
+        margin-top: $separacion5 / 2    ;
+        border: 1px solid $morado;
+        border-radius: 1rem;
+        padding: $separacion5;
+
+        @include tablet{
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            column-gap: 2rem;
+            
+        }
+
+        .text-card{
+            text-align: justify;
+            font-size: 1.8rem;
+            font-weight: $delgada;
+        }
+
+        .image-card{
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+            width: 20rem;
+            height: 20rem;
+        }
+
+    }
+}

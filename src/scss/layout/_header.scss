@@ -118,6 +118,7 @@
     justify-content: center;
     align-items: center;
     height: 70%;
+    flex-direction: column;
 
     .title{
         text-align: center;
@@ -154,6 +155,11 @@
         
     }
 
+}
+
+.app{
+    font-size: 5rem;
+    color: $blanco;
 }
 
 
