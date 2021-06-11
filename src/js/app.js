@@ -4,7 +4,7 @@ var typewriter = new Typewriter(app, {
     loop: true
 });
 
-typewriter.typeString('Will Royero')
+typewriter.typeString('William Royero')
     .pauseFor(2500)
     .deleteAll()
     .start();

@@ -23,10 +23,27 @@
         margin: $separacion5 0;
         background-color: $blanco;
         border-radius: 3rem;
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         gap: 2rem;
+
+        @include tablet{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    .description{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+
+        p{
+            text-align: center;
+        }
     }
 }

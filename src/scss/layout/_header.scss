@@ -1,6 +1,6 @@
 .header{
     position: relative; 
-    background-image:url(../../src/img/banner.png);
+    background-image:url(../../build/img/banner.png);
     height: 100vh;
     background-position: center center;
     background-repeat: no-repeat;
@@ -158,7 +158,7 @@
 }
 
 .app{
-    font-size: 5rem;
+    font-size: 4rem;
     color: $blanco;
 }
 
